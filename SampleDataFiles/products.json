@@ -1,0 +1,35 @@
+[
+  {
+    "_id": { "$oid": "628253732379e51e68d0aaab" },
+    "date": { "$date": { "$numberLong": "1652707455634" } },
+    "itemName": "Urea",
+    "description": "This is a 50kg ",
+    "countInStock": { "$numberInt": "30" },
+    "price": { "$numberInt": "5000" },
+    "imageUrl": "http://res.cloudinary.com/shoppinglanka/image/upload/v1652708210/irzd1thmljndhsjuvbmv.png",
+    "farmerId": "79aaf981-35b6-4a4c-9dad-ecc078618449",
+    "__v": { "$numberInt": "0" }
+  },
+  {
+    "_id": { "$oid": "6282539e2379e51e68d0aaac" },
+    "date": { "$date": { "$numberLong": "1652708218124" } },
+    "itemName": "Home Garden T-65",
+    "description": "2Kg weights",
+    "countInStock": { "$numberInt": "30" },
+    "price": { "$numberInt": "1200" },
+    "imageUrl": "http://res.cloudinary.com/shoppinglanka/image/upload/v1652708254/wiwzbizbjtfbojfjp8rp.png",
+    "farmerId": "79aaf981-35b6-4a4c-9dad-ecc078618449",
+    "__v": { "$numberInt": "0" }
+  },
+  {
+    "_id": { "$oid": "62826e07a54471144400702b" },
+    "date": { "$date": { "$numberLong": "1652714916063" } },
+    "itemName": "Seaweed Fertilizer",
+    "description": "1l",
+    "countInStock": { "$numberInt": "20" },
+    "price": { "$numberInt": "5000" },
+    "imageUrl": "http://res.cloudinary.com/shoppinglanka/image/upload/v1652715014/b9d5vdzro2qxbjjagjtc.png",
+    "farmerId": "79aaf981-35b6-4a4c-9dad-ecc078618449",
+    "__v": { "$numberInt": "0" }
+  }
+]

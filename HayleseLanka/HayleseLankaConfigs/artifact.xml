@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><artifacts>
+    <artifact name="HayleseLankaUsersAPI" groupId="com.example.api" version="1.0.0" type="synapse/api" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/api/HayleseLankaUsersAPI.xml</file>
+    </artifact>
+    <artifact name="userServiceEndpoint" groupId="com.example.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/userServiceEndpoint.xml</file>
+    </artifact>
+    <artifact name="productServiceEndpoint" groupId="com.example.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/productServiceEndpoint.xml</file>
+    </artifact>
+    <artifact name="HayleseLankaProductsAPI" groupId="com.example.api" version="1.0.0" type="synapse/api" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/api/HayleseLankaProductsAPI.xml</file>
+    </artifact>
+    <artifact name="deliveryServiceEndpoint" groupId="com.example.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/deliveryServiceEndpoint.xml</file>
+    </artifact>
+    <artifact name="deliveryServiceAPI" groupId="com.example.api" version="1.0.0" type="synapse/api" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/api/deliveryServiceAPI.xml</file>
+    </artifact>
+    <artifact name="orderServiceEndpoint" groupId="com.example.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/orderServiceEndpoint.xml</file>
+    </artifact>
+    <artifact name="orderServiceAPI" groupId="com.example.api" version="1.0.0" type="synapse/api" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/api/orderServiceAPI.xml</file>
+    </artifact>
+    <artifact name="paymentServiceAPI" groupId="com.example.api" version="1.0.0" type="synapse/api" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/api/paymentServiceAPI.xml</file>
+    </artifact>
+    <artifact name="paymentServiceEndpoint" groupId="com.example.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/paymentServiceEndpoint.xml</file>
+    </artifact>
+</artifacts>

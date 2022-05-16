@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<api context="/users" name="HayleseLankaUsersAPI" xmlns="http://ws.apache.org/ns/synapse">
+    <resource methods="DELETE POST PUT PATCH GET">
+        <inSequence>
+            <log>
+                <property name="message" value="Welcome To Haylese Lanka User Service"/>
+            </log>
+            <send>
+                <endpoint key="userServiceEndpoint"/>
+            </send>
+        </inSequence>
+        <outSequence>
+            <send/>
+        </outSequence>
+        <faultSequence/>
+    </resource>
+</api>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<api context="/payment" name="paymentServiceAPI" xmlns="http://ws.apache.org/ns/synapse">
+    <resource methods="DELETE POST PUT PATCH GET">
+        <inSequence>
+            <log>
+                <property name="message" value="Welcome to Shopping Lanka Payment Service"/>
+            </log>
+            <send>
+                <endpoint key="paymentServiceEndpoint"/>
+            </send>
+        </inSequence>
+        <outSequence>
+            <send/>
+        </outSequence>
+        <faultSequence/>
+    </resource>
+</api>

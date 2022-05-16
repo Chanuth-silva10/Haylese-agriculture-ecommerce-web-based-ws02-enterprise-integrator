@@ -1,0 +1,26 @@
+[
+  {
+    "_id": { "$oid": "627f79123f21cc3864cada5f" },
+    "firstName": "Chanuth",
+    "lastName": "Kumara",
+    "phoneNumber": "0774185595",
+    "address": "",
+    "email": "farmer@gmail.com",
+    "password": "sha1$d05cf64a$1$9054bf3b2d93126f0314996dfb904a5dcd754433",
+    "type": "Farmer",
+    "id": "79aaf981-35b6-4a4c-9dad-ecc078618449",
+    "__v": { "$numberInt": "0" }
+  },
+  {
+    "_id": { "$oid": "627f795f3f21cc3864cada60" },
+    "firstName": "Hasitha",
+    "lastName": "Kumara",
+    "phoneNumber": "0774185595",
+    "address": "Galle Road, Ambalangoda",
+    "email": "customer@gmail.com",
+    "password": "sha1$34f4574b$1$e48a2007538064a1f346493209d81e245ff3a8a6",
+    "type": "Buyer",
+    "id": "e3f52e37-2765-4444-8bfe-8bd837dce700",
+    "__v": { "$numberInt": "0" }
+  }
+]

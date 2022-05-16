@@ -1,0 +1,41 @@
+.homepage{
+    max-width: 1300px;
+    margin: 1rem auto;
+}
+
+.homepage__title{
+    font-size: 1.5rem;
+    color: #171717;
+    margin-bottom: 1rem;
+    margin-left: 8px;
+}
+
+.homepage__products{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.searchbar{
+    display: flex;
+    padding: 10px;
+    width: 50%;
+}
+
+/****responsive css****/
+@media (max-width: 1232px) {
+    .homepage__products{
+        grid-template-columns: repeat(3, 1fr);
+    }  
+}
+
+@media (max-width: 950px) {
+    .homepage__products{
+        grid-template-columns: repeat(2, 1fr);
+    }  
+}
+
+@media (max-width: 603px) {
+    .homepage__products{
+        grid-template-columns: 1fr;
+    }  
+}

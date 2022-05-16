@@ -1,0 +1,42 @@
+[
+  {
+    "_id": { "$oid": "62827052a54471144400702e" },
+    "userID": "e3f52e37-2765-4444-8bfe-8bd837dce700",
+    "userMail": "customer@gmail.com",
+    "noOfItems": { "$numberInt": "1" },
+    "totalAmount": { "$numberInt": "5000" },
+    "deliveryCharges": { "$numberInt": "550" },
+    "NIC": { "$numberDouble": "2.0013450222800E+11" },
+    "PhoneNumber": null,
+    "CardNumber": { "$numberDouble": "4.2424242424242E+15" },
+    "ExpirationMonth": "1",
+    "ExpirationYear": { "$numberInt": "2022" },
+    "CVC": { "$numberInt": "30" },
+    "delivery": "DHL",
+    "paymentMethod": "card",
+    "pinNumber": null,
+    "createdAt": { "$date": { "$numberLong": "1652715602446" } },
+    "updatedAt": { "$date": { "$numberLong": "1652715602446" } },
+    "__v": { "$numberInt": "0" }
+  },
+  {
+    "_id": { "$oid": "628271cca544711444007031" },
+    "userID": "e3f52e37-2765-4444-8bfe-8bd837dce700",
+    "userMail": "customer@gmail.com",
+    "noOfItems": { "$numberInt": "2" },
+    "totalAmount": { "$numberInt": "6200" },
+    "deliveryCharges": { "$numberInt": "550" },
+    "NIC": null,
+    "PhoneNumber": { "$numberInt": "779769570" },
+    "CardNumber": null,
+    "ExpirationMonth": "",
+    "ExpirationYear": null,
+    "CVC": null,
+    "delivery": "DHL",
+    "paymentMethod": "mobile",
+    "pinNumber": { "$numberInt": "123456" },
+    "createdAt": { "$date": { "$numberLong": "1652715980358" } },
+    "updatedAt": { "$date": { "$numberLong": "1652715980358" } },
+    "__v": { "$numberInt": "0" }
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "_id": { "$oid": "62827052a54471144400702d" },
+    "deliveryItems": ["Urea"],
+    "order_id": "62826e27a54471144400702c",
+    "user_id": "e3f52e37-2765-4444-8bfe-8bd837dce700",
+    "quantity": { "$numberInt": "1" },
+    "amount": { "$numberInt": "5000" },
+    "isCancel": false,
+    "address": "Galle Road, Ambalangoda",
+    "deliveryMethod": "DHL",
+    "deliveryCharges": { "$numberInt": "550" },
+    "createdAt": { "$date": { "$numberLong": "1652715602427" } },
+    "updatedAt": { "$date": { "$numberLong": "1652715602427" } },
+    "__v": { "$numberInt": "0" }
+  }
+]
