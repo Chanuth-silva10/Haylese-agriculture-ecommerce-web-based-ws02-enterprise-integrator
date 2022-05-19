@@ -69,7 +69,7 @@ export default function (state = initstate, action) {
                 ...state,
                 update:false
             }
-        case 'SELLER_UPDATE_PRODUCT':
+        case 'FARMER_UPDATE_PRODUCT':
             return{
                 ...state,
                 productWantTOUpdate: null,

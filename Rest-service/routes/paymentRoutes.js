@@ -16,7 +16,7 @@ router.post("/add", (req,res) => {
     newPayment.save().then(() => res.json("Payment Added!"));  //Saving the payment info to the DB
 
     const from = "Vonage APIs";
-    const to = "94776486255";
+    const to = "94776486675";
     const text = ` This text message is to confirm that we recieved you payment of ${newPayment.totalAmount}.00 via ${newPayment.paymentMethod} sucessfully. Deliver charges are ${newPayment.deliveryCharges}.00. Thank you for shopping with us`;
 
     vonage.message.sendSms(from, to, text, (err, responseData) => {
