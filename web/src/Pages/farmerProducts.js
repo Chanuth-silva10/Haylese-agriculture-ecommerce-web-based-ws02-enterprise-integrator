@@ -20,9 +20,9 @@ class farmerProducts extends Component {
     };
     const products = this.props.products; //geting the product in the product collection
     console.log(products);
+
     const farmerProductsList = products
-      ? products.filter((product) => product.farmerId == user.id)
-      : null; //filtering the products that login user owns
+      
     const farmerProductArr = farmerProductsList.map((product) => {
       //passing product to FarmerProduct one by one
       return <FarmerProduct product={product} />;
